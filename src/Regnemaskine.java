@@ -59,7 +59,7 @@ import java.util.concurrent.TimeUnit;
                 System.out.println(a + " / " + b + " = " + answer);
             }
             else if (operator == '+') {
-                answer = a * b;
+                answer = a + b;
                 System.out.println(a + " + " + b + " = " + answer);
             }
             else if (operator == '-') {
